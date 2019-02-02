@@ -102,11 +102,11 @@ def decryptAll():
                                 
 def copyCipher():
         pyperclip.copy(getKey())
-        tkMessageBox.showinfo("Copied","Ciphertext copied to clipboard")
+        tkMessageBox.showinfo("Copied","Ciphertext copied to clipboard!")
 
 def copyWallet():
         pyperclip.copy("1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2")
-        tkMessageBox.showinfo("Copied","Wallet address copied to clipboard")
+        tkMessageBox.showinfo("Copied","Wallet address copied to clipboard!")
         
 class Application(tk.Frame):
         
